@@ -23,7 +23,7 @@ streamlit run app.py
 OPENAI_API_KEY
 
 ```
-The proceess involves creating an OPENAI_API_KEY and the obfuscating this using a dotenv file (which is hidden via .gitignore).
+The proceess involves creating an OPENAI_API_KEY and then obfuscating this using a dotenv [https://pypi.org/project/python-dotenv/] file (which is hidden via .gitignore).
 The streamlit deployment options are available once the streamlit run app.py command has been run and the project is run at a local level.
 This then allows for the deployment to be accessed via the committed github repository and the OPEN_AI_API key added via the advanced Streamlit deployment options.
 
