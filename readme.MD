@@ -16,8 +16,7 @@ This Streamlit app generates Medium articles based on user input. It utilizes th
 ```bash
 
 python.exe -m pip install --upgrade pip
-pip install streamlit openai wikipedia chromadb tiktoken python-dotenv
-pip install streamlit openai wikipedia chromadb tiktoken
+pip install streamlit openai wikipedia chromadb tiktoken 
 pip install python-dotenv
 streamlit run app.py
 OPENAI_API_KEY
